@@ -56,12 +56,14 @@ const Modal = ({
 
   return (
     <div className="modal">
-      <div className="cerrar-modal">
+      <div className="cerrar-modal  ">
         <img src={CerrarBtn} alt="icono cerrar modal" onClick={ocultarModal} />
       </div>
       <form
         onSubmit={handleSubmit}
-        className={`formulario ${animarModal ? "animar" : "cerrar"}`}
+        className={`formulario  ${
+          animarModal ? "animar contenedor" : "cerrar"
+        }`}
       >
         <legend>{gastoEditar.nombre ? "Editar Gasto" : "Nuevo Gasto"}</legend>
         {mensaje && (

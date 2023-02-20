@@ -161,6 +161,7 @@ header h1 {
   max-width: 80rem;
   margin: 0 auto;
 }
+
 .contenedor-presupuesto {
   display: flex;
   justify-content: space-between;
@@ -354,6 +355,7 @@ main {
   top: 3rem;
   width: 3rem;
   height: 3rem;
+  z-index: 5;
 }
 .modal .cerrar-modal img {
   width: 100%;
@@ -361,8 +363,6 @@ main {
 }
 
 .modal .formulario {
-  max-width: 80rem;
-  width: 40rem;
   transition-property: all;
   transition-duration: 300ms;
   transition-timing-function: ease-in;
