@@ -28,7 +28,7 @@ const NuevoPresupuesto = ({
             className="nuevo-presupuesto contenedor"
             placeholder="Añade tu presupuesto"
             type="number"
-            value={presupuesto}
+            value={presupuesto || undefined}
             onChange={(e) => setPresupuesto(Number(e.target.value))}
           />
           <input className="contenedor" type="submit" value="Añadir" />
