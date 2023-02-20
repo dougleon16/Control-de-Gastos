@@ -13,8 +13,8 @@ body {
   background-color: var(--gris-claro);
 }
 html {
-  font-size: 62.5%;
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 *,
 *:before,
@@ -166,6 +166,7 @@ header h1 {
   justify-content: space-between;
   align-items: center;
   transform: translateY(5rem);
+  padding: 1rem;
 }
 .dos-columnas {
   flex-direction: column;
@@ -190,6 +191,7 @@ header h1 {
 .formulario input[type="number"].nuevo-presupuesto {
   font-size: 2.8rem;
   text-align: center;
+  width: 100%;
 }
 
 .contenedor-presupuesto svg {
