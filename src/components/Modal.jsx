@@ -61,7 +61,7 @@ const Modal = ({
       </div>
       <form
         onSubmit={handleSubmit}
-        className={`formulario  ${
+        className={`formulario contenedor  ${
           animarModal ? "animar contenedor" : "cerrar"
         }`}
       >
