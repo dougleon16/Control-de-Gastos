@@ -155,7 +155,6 @@ function App() {
           setGastoEditar={setGastoEditar}
         />
       )}
-      ;
     </div>
   );
 }
