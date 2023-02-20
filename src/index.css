@@ -277,6 +277,11 @@ main {
   margin: 0 auto;
   max-width: 80rem;
 }
+
+.gasto.sombra {
+  padding: 2.5rem;
+  margin-bottom: 2.4rem;
+}
 @media (min-width: 600px) {
   .gasto {
     display: flex;
